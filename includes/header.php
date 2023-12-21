@@ -13,33 +13,52 @@
         body {
             margin: 0;
             padding: 0;
+            background-color: #EEF0E5;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
         }
 
         .wrapper {
             display: flex;
             justify-content: center;
             align-items: flex-start;
-            background-color: #f8f9fa;
-            /* add background color if needed */
+            background-color: #B6C4B6;
         }
 
-        .logo img {
-            width: 200px;
-            /* adjust the width as needed */
+        .welcome {
+            width: auto;
             height: auto;
-            /* maintain aspect ratio */
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: white;
+            text-align: center;
+            /* Tambahkan properti ini untuk mengatur teks ke tengah */
+        }
+
+        .welcome>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .welcome img {
+            width: 400px;
+            /* Atur lebar gambar sesuai kebutuhan Anda */
+            height: auto;
+            /* Biarkan ketinggian disesuaikan secara otomatis */
             margin-top: 20px;
-            /* adjust the margin-top as needed */
+            /* Sesuaikan margin sesuai kebutuhan Anda */
         }
     </style>
+
 </head>
 
 <body>
     <!-- add image logo -->
     <nav class="wrapper">
-        <div class="logo">
+        <div class="welcome">
             <ul>
-                <img src="assets/data_logo1.jpg" alt="Italian Trulli">
+                <img src="assets/databooks_logotype-01.png" alt="databook logo">
             </ul>
         </div>
     </nav>
